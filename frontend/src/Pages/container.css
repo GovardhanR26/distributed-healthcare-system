@@ -1,0 +1,40 @@
+.main-container {
+    margin-left: 20%;
+    height: 100%;
+    padding: 40px;
+    background: url("../images/background1.jpg");
+    background-size: cover;
+    
+}
+
+.main-body {
+    height: 100%;
+    padding: 40px;
+    border-radius: 20px;
+    background:rgba(255, 255, 255, 0.95);
+}
+
+.main-contents {
+    padding: 20px;
+}
+.main-contents .contents {
+    width: 75%;
+    height: 200px;
+    margin: auto;
+    position: relative;
+}
+
+.table {
+    width: 90%;
+    margin: auto;
+    /* height: 300px; */
+    overflow-y: auto;
+}
+
+.confirm_box {
+    margin: 10px 300px;
+    background-color: #d3d3d3;
+    border-radius: 15px;
+    padding: 20px;
+    height: 150px;
+}

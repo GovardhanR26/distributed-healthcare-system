@@ -1,0 +1,99 @@
+.sidebar {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    color: white;
+}
+
+.sidebar_contents {
+    padding-left: 10px;
+}
+
+.top_section {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_section svg{
+    flex: 30%;
+    font-size: 48px;
+    /* margin-right: 10px; */
+}
+
+.username {
+    flex: 70%;
+    font-size: 24px;
+}
+
+.row {
+    height: 60px;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    width: 90% !important;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.sidebar a:hover, .active {
+    color: white;
+    background-color: #3f3f3f;
+    transition: 100ms;
+}
+
+.icon {
+    flex: 25%;
+    display: grid;
+    place-items: center;
+}
+
+.icon svg {
+    font-size: 24px;
+}
+
+.link_text {
+    flex: 75%;
+}
+
+.logout:hover {
+    cursor: pointer;
+}
+
+
+/* .inactive {
+    margin-bottom: 50px;
+} */
+/* 
+.main-container {
+    margin-left: 200px;
+    height: 100%;
+    padding: 40px;
+    background: url("../images/background.jpg");
+    background-size: cover;
+    
+}
+
+.main-body {
+    height: 100%;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    background:rgba(255, 255, 255, 0.7);
+} */

@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+div#root {
+  height: 100%;
+}
+  
+  .Login {
+    /* background-color: #282c34; */
+    background-image: url("./images/background3.jpg");
+    background-size: cover;
+    padding: 40px;
+    padding-right: 80px;
+    height: 100%;
+  }
+
+  .LoginContainer {
+    background:rgba(255, 255, 255, 0.85);
+    /* background-color: white; */
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    width: 30%;
+    float: right;
+    transform: translateY(15%);
+    border-radius: 3%;
+  }
+
+  .form-control:focus {
+    /* border-color: green; */
+    box-shadow: none;
+  }
